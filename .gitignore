@@ -24,4 +24,4 @@ test-classes/
 .vscode/
 
 # Ignore HibernateUtil.java file
-src/main/java/com/db/HibernateUtil.java
+src/main/java/com/db/
