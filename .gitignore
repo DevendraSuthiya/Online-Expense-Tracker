@@ -1,0 +1,16 @@
+# Ignore compiled Java files and build directories
+target/
+
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Maven wrapper files (if applicable)
+.mvn/
+# Ignore HibernateUtil.java file
+src/java/com/db/HibernateUtil.java
