@@ -1,5 +1,7 @@
 # Ignore compiled Java files and build directories
 target/
+classes/
+test-classes/
 
 # Ignore Eclipse-specific files
 .classpath
@@ -12,5 +14,14 @@ target/
 
 # Ignore Maven wrapper files (if applicable)
 .mvn/
+!mvn/wrapper/maven-wrapper.jar
+
+# Ignore OS-generated files (macOS)
+.DS_Store
+
+# Ignore IDE-related files (if using IntelliJ or VS Code)
+.idea/
+.vscode/
+
 # Ignore HibernateUtil.java file
-src/java/com/db/HibernateUtil.java
+src/main/java/com/db/HibernateUtil.java
